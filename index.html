@@ -3,54 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind Card Project </title>
     <link rel="stylesheet" href="./src/output.css">
-    <title>Flipkart/Amazon Demo</title>
 </head>
-<body class="bg-gray-100 font-sans">
+<body>
+    <div class="min-h-screen bg-gray-200 flex justify-center items-center">
 
-    <nav class="bg-blue-600 p-4 shadow-md">
-        <div class="max-w-6xl mx-auto flex justify-between items-center text-white">
-            <h1 class="text-2xl font-bold italic">BrandLogo</h1>
-            <div class="space-x-6">
-                <a href="#" class="hover:underline">Home</a>
-                <a href="#" class="hover:underline">Products</a>
-                <a href="#" class="hover:underline">Cart</a>
-            </div>
-        </div>
-    </nav>
-
-    <header class="max-w-6xl mx-auto mt-8 p-6 bg-white rounded-xl shadow-lg flex flex-col items-center text-center">
-        <h2 class="text-4xl font-extrabold text-gray-800">Biggest Sale is Live!</h2>
-        <p class="text-gray-600 mt-2">Get up to 50% off on all electronics items.</p>
-        <button class="mt-4 bg-orange-500 hover:bg-orange-600 text-white font-bold py-2 px-6 rounded-full transition duration-300">
-            Shop Now
-        </button>
-    </header>
-
-    <main class="max-w-6xl mx-auto mt-10 grid grid-cols-1 md:grid-cols-3 gap-6 mb-10 px-4 md:px-0">
-        
-        <div class="bg-white p-4 rounded-lg shadow-md hover:scale-105 transition-transform">
-            <div class="h-48 bg-gray-200 rounded-md mb-4 flex items-center justify-center text-gray-400">Image Space</div>
-            <h3 class="text-lg font-bold">Smart Watch Ultra</h3>
-            <p class="text-blue-600 font-bold mt-1">$199.00</p>
-            <button class="w-full mt-4 bg-yellow-400 hover:bg-yellow-500 py-2 rounded font-semibold">Add to Cart</button>
-        </div>
-
-        <div class="bg-white p-4 rounded-lg shadow-md hover:scale-105 transition-transform">
-            <div class="h-48 bg-gray-200 rounded-md mb-4 flex items-center justify-center text-gray-400">Image Space</div>
-            <h3 class="text-lg font-bold">Wireless Headphones</h3>
-            <p class="text-blue-600 font-bold mt-1">$99.00</p>
-            <button class="w-full mt-4 bg-yellow-400 hover:bg-yellow-500 py-2 rounded font-semibold">Add to Cart</button>
-        </div>
-
-        <div class="bg-white p-4 rounded-lg shadow-md hover:scale-105 transition-transform">
-            <div class="h-48 bg-gray-200 rounded-md mb-4 flex items-center justify-center text-gray-400">Image Space</div>
-            <h3 class="text-lg font-bold">MacBook Pro M3</h3>
-            <p class="text-blue-600 font-bold mt-1">$1299.00</p>
-            <button class="w-full mt-4 bg-yellow-400 hover:bg-yellow-500 py-2 rounded font-semibold">Add to Cart</button>
-        </div>
-
-    </main>
-
+     <div class="bg-white p-8 rounded-xl shadow-lg max-w-sm text-center">
+     <h2 class="text-2xl font-bold text-green-800 tracking-wide mb-2">
+        Pro Plan
+     </h2>
+     <p class="text-gray-600 leading-relaxed mb-4">Ideal for devolopers and startups who want power and perfomance </p>
+     <div class="text-4xl font-bold text-blue-900 mb-6" >₹999 <span class="text-sm text-gray-500">mo</span></div>
+     <ul class="text-left text-gray-700 space-y-2 mb-6">
+        <li>✅ Unlimited projects</li>
+        <li>✅ 100GB Storage</li>
+        <li>✅ Priority Support</li>
+     </ul>
+     <button class="bg-blue-600 text-white hover:bg-blue-950 px-6 py-2 rounded-xl transition duration-300">Get Started</button>
+     </div>    
+    </div>
 </body>
 </html>
